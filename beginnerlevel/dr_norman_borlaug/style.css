@@ -1,0 +1,175 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid none;
+}
+
+@media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+html {
+    font-size: 10px;
+}
+
+#ust {
+    width: 100%;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+hr {
+    width: 33%;
+    margin: auto;
+    height: 2px;
+    border-width: 0px;
+    background-color: gray;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(15, 15, 15);
+    text-align: center;
+}
+
+#ust .ptitle {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#photo {
+    background-color: #eaddcf;
+
+}
+
+#img-div {
+    max-width: 70%;
+    display: block;
+    height: auto;
+    position: relative;
+    padding: 15px;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#tribute-info {
+    text-align: center;
+}
+#tribute-info #info{
+    padding-top: 100px;
+    margin: auto;
+    max-width: 650px;
+}
+
+#tribute-info h2 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-family:  "Montserrat";
+}
+
+ul {
+    list-style: circle;
+    font-size: 1.7rem;
+    font-family: "Montserrat";
+    text-align: left;
+    line-height: 1.5;
+    
+}
+
+ul li {
+    padding-left: 10px;
+margin-left:2rem ;
+padding-bottom: 10px;
+text-align: justify;
+}
+blockquote {
+    font-style: italic;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 1.7rem;
+  }
+  h3{
+    font-size: 1.9rem;
+    font-weight: bolder;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
